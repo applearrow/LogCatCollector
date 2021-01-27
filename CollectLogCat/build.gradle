@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        textReport true
+        textOutput 'stdout'
+    }
+
+    // TODO replace with https://issuetracker.google.com/issues/72050365 once released.
+    libraryVariants.all {
+        it.generateBuildConfig.enabled = false
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
