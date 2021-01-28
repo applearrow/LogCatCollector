@@ -7,10 +7,10 @@ Uses:
 
 - __[Timber](https://github.com/JakeWharton/timber)__ - A logger with a small, extensible API which provides utility on top of Android's normal Log class.
 
-Initialize Timber in the application onCreate.
+Initialize Timber in the application `onCreate`.
 
 ```kotlin
-package dev.applearrow.jitpacktest
+package dev.applearrow.jitpacktest`
 
 import android.app.Application
 import timber.log.Timber
