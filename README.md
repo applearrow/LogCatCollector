@@ -57,4 +57,4 @@ In my case I'm using it to show info from services, logs from libraries, etc.
     }
 ```
 
-[<img src="app/doc/images/screenshot1.png" width="400"/>](app/doc/images/screenshot1.png)
+[<img src="app/doc/images/screenshot1.png" width="200"/>](app/doc/images/screenshot1.png)
