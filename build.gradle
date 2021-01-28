@@ -25,7 +25,6 @@ ext {
     minSdkVersion = 26
     compileSdkVersion = 29
 
-
     junit = 'junit:junit:4.13'
     truth = 'com.google.truth:truth:1.0.1'
     testOrchestrator = 'androidx.test:orchestrator:1.1.1'

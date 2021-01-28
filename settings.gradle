@@ -1,3 +1,3 @@
-include ':CollectLogCat'
+include ':LogCatCollector'
 include ':app'
 rootProject.name = "CollectLogCatSample"

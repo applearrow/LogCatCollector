@@ -1,4 +1,4 @@
-package dev.applearrow.collectlog
+package dev.applearrow.logcat
 
 import android.text.Spannable
 import android.text.SpannableStringBuilder

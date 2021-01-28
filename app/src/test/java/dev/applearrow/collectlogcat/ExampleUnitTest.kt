@@ -1,4 +1,4 @@
-package dev.applearrow.collectlogcatsample
+package dev.applearrow.collectlogcat
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package dev.applearrow.collectlog
+package dev.applearrow.logcat
 
 import android.graphics.Paint
 import android.graphics.Typeface
